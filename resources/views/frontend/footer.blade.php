@@ -4,8 +4,8 @@
             <div class="areaSocial">
                 <ul class="listSocial clearFix">
                     <li><a href="#" class="se">Search</a></li>
-                    <li><a href="#" class="yu">Youtube</a></li>
-                    <li><a href="#" class="sk">Skype</a></li>
+                    <li><a href="https://www.youtube.com/playlist?list=PL6cgnq2l30jLstXzMQVkIvaSpmqy_85la" class="yu">Youtube</a></li>
+                    <li><a href="https://www.facebook.com/tienlietvuong.vn" class="sk">Skype</a></li>
                     <li><a href="#" class="go">googleplus</a></li>
                 </ul>
             </div>
@@ -23,8 +23,8 @@
     </div>
     <div class="copyRight">
         <div class="container">
-            <p class="copy">Hỗ trợ điều trị viêm gan vi rút, điều trị men gan cao, xơ gan<br />
-          © 2016 Cà gai leo Tuệ Linh. Vui lòng ghi rõ nguồn khi sử dụng nội dung từ website này.</p>
+            <p class="copy">Giảm tiểu đêm - dịu êm tiền liệt tuyến<br />
+ @ 2016 TIENLIETVUONG.VN. VUI LÒNG GHI RÕ NGUỒN KHI SỬ DỤNG NỘI DUNG TỪ WEBSITE NÀY.</p>
       </div>
     </div>
 </footer>

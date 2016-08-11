@@ -14,7 +14,8 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{$meta_url}}">
     <meta property="og:image" content="{{$meta_image}}">
-    <meta property="og:site_name" content="Cà gai leo Tuệ Linh">
+    <meta property="og:site_name" content="Tiền Liệt Vương">
+	<meta property="fb:app_id" content="100101143774499"/>
 
     <meta name="twitter:card" content="Card">
     <meta name="twitter:url" content="{{$meta_url}}">
@@ -32,7 +33,7 @@
     <meta name="DESCRIPTION" content="{{$meta_desc}}"/>
     <meta name="KEYWORDS" content="{{$meta_keywords}}"/>
     <meta name="ROBOTS" content="index,follow"/>
-    <meta name="AUTHOR" content="Thông huyết"/>
+    <meta name="AUTHOR" content="Tiền Liệt Vương"/>
     <meta name="RESOURCE-TYPE" content="DOCUMENT"/>
     <meta name="DISTRIBUTION" content="GLOBAL"/>
     <meta name="COPYRIGHT" content="Copyright 2013 by Goethe"/>
@@ -47,7 +48,41 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+	
+	<script type="text/javascript">
+            (function () {
+                        var _eclickq = window._eclickq || (window._eclickq = []);
+                        if (!_eclickq.loaded) {
+                        var eclickTracking = document.createElement('script');
+                             eclickTracking.async = true;
+                             eclickTracking.src = ('https:'==document.location.protocol?'https:':'http:')+'//s.eclick.vn/delivery/retargeting.js';
+                             var s = document.getElementsByTagName('script')[0];
+                             s.parentNode.insertBefore(eclickTracking, s);
+                             _eclickq.loaded = true;                                                           
+                        }
+                        _eclickq.push(['addPixelId', 12624]);
+            })();
+            window._eclickq = window._eclickq || [];
+            window._eclickq.push(['track', 'PixelInitialized', {}]);
+</script>
+	
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-570f69bb385fe2f2"></script>
+	<!-- Facebook Conversion Code for Tiền liệt vương -->
+<script>(function() {
+  var _fbq = window._fbq || (window._fbq = []);
+  if (!_fbq.loaded) {
+    var fbds = document.createElement('script');
+    fbds.async = true;
+    fbds.src = 'https://connect.facebook.net/en_US/fbds.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(fbds, s);
+    _fbq.loaded = true;
+  }
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', '6059229771751', {'value':'0.00','currency':'VND'}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6059229771751&amp;cd[value]=0.00&amp;cd[currency]=VND&amp;noscript=1" /></noscript>
 </head>
 <body class="home">
 <div class="wrapper" id="wrapper">
@@ -59,15 +94,36 @@
     <div class="overlay" id="overlay"></div>
     @include('frontend.mobile_menu')
 </div>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.4";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '100101143774499',
+      xfbml      : true,
+      version    : 'v2.7'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
 </script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-66374353-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
 <script type="text/javascript" src="{{url('frontend/js/jquery-1.10.2.min.js')}}"></script>
 <script type="text/javascript" src="{{url('frontend/js/owl.carousel.min.js')}}"></script>
 <script type="text/javascript" src="{{url('frontend/js/jquery.matchHeight-min.js')}}"></script>

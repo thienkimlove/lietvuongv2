@@ -1,4 +1,4 @@
-<div class="col-right">
+﻿<div class="col-right">
     @if ($featureVideos->count() > 0)
         <div class="box-video">
             <h3 class="global-title"><a href="{{url('video')}}">Góc videos</a></h3>
@@ -18,7 +18,7 @@
     @endif
 
         <div class="Social">
-            <div class="fb-page" data-href="https://www.facebook.com/viemgan.com.vn/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/viemgan.com.vn/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/viemgan.com.vn/">PHÒNG BỆNH GAN</a></blockquote></div></div>
+            <div class="fb-page" data-href="https://www.facebook.com/tienlietvuong.vn/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://https://www.facebook.com/tienlietvuong.vn/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/tienlietvuong.vn/">Tien Liet Vuong</a></blockquote></div></div>
 
 
     <div class="boxHot cf" id="sidebar">

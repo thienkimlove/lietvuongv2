@@ -19,7 +19,7 @@
     @foreach ($rightBanners as $banner)
         <div class="box-adv">
             <a href="{{$banner->url}}">
-                <img src="{{url('files/'.$banner->image)}}" alt="Tue linh">
+                <img src="{{url('files/'.$banner->image)}}" alt="Tiền liệt vương">
             </a>
         </div>
     @endforeach
@@ -27,7 +27,7 @@
     
     <!-- /endHot -->
     <div class="Social">
-        <div class="fb-page" data-href="https://www.facebook.com/viemgan.com.vn/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/viemgan.com.vn/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/viemgan.com.vn/">PHÒNG BỆNH GAN</a></blockquote>
+        <div class="fb-page" data-href="https://www.facebook.com/tienlietvuong.vn/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/tienlietvuong.vn/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/tienlietvuong.vn/">Tiền Liệt Vương</a></blockquote>
         </div>
       </div>
 
