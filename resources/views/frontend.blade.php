@@ -15,7 +15,7 @@
     <meta property="og:url" content="{{$meta_url}}">
     <meta property="og:image" content="{{$meta_image}}">
     <meta property="og:site_name" content="Tiền Liệt Vương">
-	<meta property="fb:app_id" content="100101143774499"/>
+	<meta property="fb:app_id" content="1571372846430003"/>
 
     <meta name="twitter:card" content="Card">
     <meta name="twitter:url" content="{{$meta_url}}">
@@ -98,7 +98,7 @@ window._fbq.push(['track', '6059229771751', {'value':'0.00','currency':'VND'}]);
 <script>
   window.fbAsyncInit = function() {
     FB.init({
-      appId      : '100101143774499',
+      appId      : '1571372846430003',
       xfbml      : true,
       version    : 'v2.7'
     });
@@ -127,6 +127,7 @@ window._fbq.push(['track', '6059229771751', {'value':'0.00','currency':'VND'}]);
 <script type="text/javascript" src="{{url('frontend/js/jquery-1.10.2.min.js')}}"></script>
 <script type="text/javascript" src="{{url('frontend/js/owl.carousel.min.js')}}"></script>
 <script type="text/javascript" src="{{url('frontend/js/jquery.matchHeight-min.js')}}"></script>
+<script type="text/javascript" src="{{url('frontend/js/ScrollToFixed/jquery-scrolltofixed-min.js')}}"></script>
 <script type="text/javascript" src="{{url('frontend/js/common.js')}}"></script>
 <script type="text/javascript" src="{{url('frontend/js/fixedsidebar.js')}}"></script>
 
