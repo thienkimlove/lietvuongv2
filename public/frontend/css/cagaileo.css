@@ -3376,9 +3376,7 @@ vertical-align: top;
     display: block;
   }
 
-  .menu-left {
-    display: block;
-  }
+  
 
   .nav-main, .box-find {
     display: none;
@@ -3641,7 +3639,7 @@ vertical-align: top;
   .sp {
     display: block;
   }
-
+.menu-left {display: block;}
   #sidebar.fixed {
   position: relative;
   width : 100%;
@@ -3928,7 +3926,9 @@ vertical-align: top;
   .nav-main {
     display: none;
   }
-
+  .menu-left {
+    display: block;
+  }
   .box-member-focus .item {
     float: left;
     width: 31.25%;

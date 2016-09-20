@@ -15,6 +15,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Mail;
 
 class FrontendController extends Controller
 {
@@ -224,11 +225,16 @@ class FrontendController extends Controller
         $data = $request->all();
 
         if (isset($data['question'])) {
-            unset($data['_token']);
-            Question::insert($data);
+
+            Mail::send('mails.question', ['data' => $data], function ($m)  {
+                $m->from(env('MAIL_USERNAME'), 'Tue Linh')
+                    ->to('contact@tuelinh.com')
+                    ->subject('Đặt câu hỏi với chuyên gia!');
+            });
+
         }
 
-        return redirect('cau-hoi-thuong-gap');
+        return redirect(url('/'));
     }
 
     public function tag($value)
