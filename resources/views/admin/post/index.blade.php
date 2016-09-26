@@ -55,6 +55,10 @@
                                         {!! Form::open(['method' => 'DELETE', 'route' => ['admin.posts.destroy', $post->id]]) !!}
                                         <button type="submit" class="btn btn-danger btn-mini">Delete</button>
                                         {!! Form::close() !!}
+
+                                        <button class="btn btn-primary btn-sm" type="button">
+                                            <a target="_blank" href="{{url($post->slug.'.html')}}">View Post</a>
+                                        </button>&nbsp;
                                     </td>
                                 </tr>
                             @endforeach
