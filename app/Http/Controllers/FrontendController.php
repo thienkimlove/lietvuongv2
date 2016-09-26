@@ -239,6 +239,7 @@ class FrontendController extends Controller
 
     public function tag($value)
     {
+        $page = 'tag';
         $middleIndexBanner = Banner::where('status', true)->where('position', 'middle_index')->get();
 
         $tag = Tag::where('slug', $value)->get();
@@ -258,7 +259,8 @@ class FrontendController extends Controller
                 ->orderBy('updated_at', 'desc')
                 ->paginate(10);
 
-            return view('frontend.tag', compact('posts', 'tag', 'middleIndexBanner'))->with($this->generateMeta([
+            return view('frontend.tag', compact('posts', 'tag', 'middleIndexBanner', 'page'))->with
+            ($this->generateMeta([
                 'title' => $meta_title,
                 'desc' => $meta_desc,
                 'keywords' => $meta_keywords,
